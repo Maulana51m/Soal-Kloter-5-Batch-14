@@ -1,0 +1,5 @@
+a = int (input("masukkan jumlah uang anda : "))
+c = int (input("Masukkan Jumlah Bulan : "))
+b = (25/1000*a)
+total = ((b*c)+a)
+print ("Jumlah Uang Anda Setelah",c,"bulan :"+ str(total))
